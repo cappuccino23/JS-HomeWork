@@ -7,35 +7,27 @@
 'use strict';
 
     function dlt(a, b) {
-        let del;
         if (b != 0)
-            del = a / b;
+            let del = a / b;
         else
-            alert('Делить на ноль нельзя!');
-            del = undefined;
-            
+            alert('Делить на ноль нельзя!');   
         return del; 
     }
 
     function sum(a, b) {
-        let summ;
-        summ = a + b;
+        let summ = a + b;
         return summ; 
     }
 
     function diff(a, b) {
-        let dff;
-        dff = a - b;
+        let dff = a - b;
         return dff; 
     }
 
-
     function mult(a, b) {
-        let mlt;
-        mlt = a * b;
+        let mlt = a * b;
         return mlt; 
     }
-
 
     function choise_oper(a, b, oper) {
         
@@ -61,4 +53,4 @@ let a = Number(prompt("Введите первое число: "));
 let b = Number(prompt("Введите второе число: "));
 let oper = prompt("Введите знак операции: ");
 
-result_operation = choise_oper(a, b, oper);
+let result_operation = choise_oper(a, b, oper);

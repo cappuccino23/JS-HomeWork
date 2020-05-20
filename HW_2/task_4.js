@@ -4,27 +4,23 @@
 'use strict';
 
     function dlt(a, b) {
-        let del;
-        del = a / b;
+        let del = a / b;
         return del; 
     }
 
     function sum(a, b) {
-        let summ;
-        summ = a + b;
+        let summ = a + b;
         return summ; 
     }
 
     function diff(a, b) {
-        let dff;
-        dff = a - b;
+        let dff = a - b;
         return dff; 
     }
 
 
     function mult(a, b) {
-        let mlt;
-        mlt = a * b;
+        let mlt = a * b;
         return mlt; 
     }
 
@@ -55,7 +51,7 @@
         {
             console.log('Результат разности: ' + diff(a, b));
         }
-
+        
     else 
         alert ('Вы ввели некорректную операцию');
         

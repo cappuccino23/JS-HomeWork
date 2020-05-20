@@ -12,20 +12,17 @@ let a = Number(prompt("Введите первое число: "));
 let b = Number(prompt("Введите второе число: "));
 
 if (a < 0 && b < 0)  {
-        let mult;
-        mult = a * b;
-        alert(mult);
+    alert(a * b);
     }
 
 if (a >= 0 && b >= 0) {
-        let diff;
-        diff = a - b;
-        alert(diff);
+    alert(a - b);
     }
 
-if  (a < 0 && b > 0) OR (a > 0 && b < 0)
-    {
-        let sum;
-        sum = a + b;
-        alert(sum);
+if  (a < 0 && b > 0) {
+    alert(a + b);
+    }
+
+if  (a > 0 && b < 0) {
+        alert(a + b);
     }
