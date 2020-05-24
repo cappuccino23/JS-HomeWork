@@ -40,7 +40,7 @@ const products = [
 let products2 = products.filter(item => "photos" in item && item.photos.length > 0);
 console.log(products2);
 
-//метод for
+/*метод for
 
 for (let n = 0; n <= products.length; n++) {
     
@@ -51,7 +51,7 @@ for (let n = 0; n <= products.length; n++) {
 
     else
         continue;
-}
+}*/
 
 // сортируем массив обьектов с методом sort 
 products.sort(function(a,b) {
