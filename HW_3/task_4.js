@@ -17,3 +17,15 @@ const products = [
         price: 1000,             
     },         
 ]; 
+
+// через метод forEach
+function iterate(item) {
+    console.log(item.price - (item.price * 0.15));
+  }
+
+products.forEach(iterate);
+
+// второй способ через for
+for (let n = 0; n <= products.length - 1; n++){
+    console.log(products[n].price - (products[n].price * 0.15));
+}
