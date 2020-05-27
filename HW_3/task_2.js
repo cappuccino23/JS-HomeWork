@@ -9,8 +9,10 @@
 
 for (var count = 0; count <= 10; count++)   
 {
-    if (count % 2 == 0) 
+    if (count % 2 == 0) {
         console.log(`${count} - это четное число`); 
-    else
+    }
+    else {
         console.log(`${count} - это нечетное число`); 
+    }
 }

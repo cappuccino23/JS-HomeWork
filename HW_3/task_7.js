@@ -16,5 +16,6 @@ function repeat(s, n){
 let k = 25;
 let s = 'x';
 
-for (let n = 1; n <= k; n++)
+for (let n = 1; n <= k; n++) {
     console.log(repeat(s, n))
+}
